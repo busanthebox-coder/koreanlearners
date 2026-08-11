@@ -836,6 +836,10 @@ footer{background:var(--off);padding:64px 48px 36px;border-top:3px solid rgba(25
 ═══════════════════════════════════════════ */
 @media (max-width: 768px) {
 
+  html, body { max-width: 100%; overflow-x: hidden; }
+  .photo-marquee { contain: paint; }
+  .pm-track { will-change: transform; }
+
   /* ── NAV ── */
   nav { padding: 0 20px; height: 56px; }
   .logo { font-size: 22px; gap: 8px; }
